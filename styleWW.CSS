@@ -1,0 +1,40 @@
+p{
+		color:black;
+	}
+	h1{
+		color:grey;
+	}
+	h2{
+		color:grey;
+	}
+	h3 {
+		color:grey;
+	}
+div.Title_Image {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:78%;
+}
+div.topnav {
+	<font size="6"> </font>
+
+}
+a:hover {
+	background-color: yellow;
+}
+<div.footer {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:78%; 
+}
+
+a{
+	color:black;
+}
+@media only screen and (max-width:600px) {
+	body {
+		background-color:yellow;
+	}
+}
