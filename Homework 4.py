@@ -33,11 +33,12 @@ with open ('index.html', 'w') as f:
         '<title> GDP Data </title></head>' +
         '<h1> China and US GDP Data </h1>' +
         '<p> The following is a summary of the US and China\'s GDP statistics. It is broken down by the date, GDP value, and country. The graph plots the data in terms of the date on the x axis and GDP value on the Y axis. </p>' +
-        '<p> I downloaded the GDP data from one of the JSON data sets that Professor Izbicki provided. Then, I opened the JSON file using the' +
-        'json.loads function. Then, I made empty dictionaries for both the US and China GDP datasets. After that, I wrote two identical for loops for US and China' +
-        'These for loops go through the files and find the date, country, and values of each. The JSON files are lists with dictionaries inside of them.'+
+        '<p> I downloaded the GDP data from one of the JSON data sets that Professor Izbicki provided. Then, I opened the JSON file using the ' +
+        'with open function. Then, I made empty dictionaries for both the US and China GDP datasets. After that, I wrote two identical for loops for US and China ' +
+        'These for loops go through the files and find the date, country, and values of each. The JSON files are lists with dictionaries inside of them. '+
         '<p><a href="http://api.worldbank.org/countries/USA/indicators/NY.GDP.MKTP.CD?per_page=5000&format=json" >Link</a> is the USA data set and <a href= ' +
-            '"http://api.worldbank.org/countries/CHN/indicators/NY.GDP.MKTP.CD?per_page=5000&format=json">Link</a> is where the China data set is from. </p>' )
+        '"http://api.worldbank.org/countries/CHN/indicators/NY.GDP.MKTP.CD?per_page=5000&format=json">Link</a> is where the China data set is from. </p>' +
+        '<p> TEST </p>')
     f.write(text)    
 
         
