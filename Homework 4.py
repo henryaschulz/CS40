@@ -77,8 +77,8 @@ with open ('index.html', 'w') as f:
         '<p> I downloaded this data from the JSON data sets that Professor Izbicki provided. The JSON files are lists with dictionaries inside of them.' +
         'Then, I opened the JSON file using the with open function. Then I made an empty dictionary for the US data set. I then plotted it using the plt.plot function.' +
         'The US\'s population has been growing since 1960.'+
-        '<p><a href="http://api.worldbank.org/countries/USA/indicators/SP.POP.TOTL?per_page=5000&format=json" >Link</a is the US population data set. </p> <br>' +
-        '<img src="USPop.png"> <p>penis</p>')
+        '<p><a href="http://api.worldbank.org/countries/USA/indicators/SP.POP.TOTL?per_page=5000&format=json" >Link</a> is the US population data set. </p> <br>' +
+        '<img src="USPop.png">')
     f.write(text)
 
 
