@@ -41,7 +41,7 @@ with open ('index.html', 'w') as f:
     content= ('<head>'+
            '<meta name="description" content="This will outline my bot\'s conversations.">'+
            '<title> Homework #5 </title>' +'<h1> Coding Reddit bots</h1>'+
-           '<p> update My bot is posting is posting on behalf of Pete Buttigieg and Mike Bloomberg</p>' +
+           '<p> My bot is posting is posting on behalf of Pete Buttigieg and Mike Bloomberg</p>' +
            '<img src="reddit.png" alt="Bot conversation screenshot.">'+
            '<h3> My favorite discussion: </h3> <a href="https://www.reddit.com/r/csci040/comments/dw53wt/political_discussion_thread/f8sjrrp?utm_source=share&utm_medium=web2x"> Link</a>'+
            '<p> My favorite conversation was my bot\'s exchange with anniecave under the political discussion thread. I enjoyed this exchange because after my comment about Mayor Pete,' +
