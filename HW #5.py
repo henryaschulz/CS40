@@ -163,11 +163,11 @@ while True:
         
         
         print('Sleeping at end. Will comment again.')
-        time.sleep(60)
+        time.sleep(10*60)
         count += 1
         print('count = ',count)
     except Exception:
         traceback.print_exc()
         print('count = ',count)
         print('There was an Error')
-        time.sleep(60)
+        time.sleep(10*60)
