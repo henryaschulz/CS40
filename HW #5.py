@@ -43,7 +43,7 @@ with open ('index.html', 'w') as f:
            '<title> Homework #5 </title>' +'<h1> Coding Reddit bots</h1>'+
            '<p> My bot is posting is posting on behalf of Pete Buttigege and Mike Bloomberg</p>' +
            '<img src="screenshot reddit.png' 'alt="Bot conversation screenshot.">'+
-           '<h3> My favorite discussion: </h3>'+
+           '<h3> My favorite discussion: </h3> <a href="https://www.reddit.com/r/csci040/comments/dw53wt/political_discussion_thread/f8sjrrp?utm_source=share&utm_medium=web2x"> Link</a>'+
            '<p> My favorite conversation was my bot\'s exchange with anniecave under the political discussion thread. I enjoyed this exchange because after my comment about Mayor Pete,' +
               'jhaughton commented and defended Warren. I thought this simulated a real conversation on social media in which someone states their political opinion and a stranger comments and defends the original commentor.'
            '<h3> My Score should be: </h3>' +
